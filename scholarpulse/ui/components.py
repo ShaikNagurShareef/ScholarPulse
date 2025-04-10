@@ -47,7 +47,7 @@ def display_sidebar():
         )
 
         # Optional: Add disclaimer or info
-        st.markdown("---")
+        # st.markdown("---")
         st.caption("Ensure input links point directly to PDFs where possible for best results.")
 
     return sidebar_values

@@ -39,7 +39,14 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-st.title("🎓 ScholarPulse: AI Research Assistant")
+# Create two columns
+col1, col2 = st.columns([0.3, 4])  # Adjust the width ratio as needed
+with col1:
+    st.image("scholarpulse/sp.png", width=1000)  # Adjust width as needed
+with col2:
+    st.title("ScholarPulse: AI Research Assistant")
+
+# st.title("🎓 ScholarPulse: AI Research Assistant")
 st.caption("Your intelligent companion for understanding research papers.")
 
 # --- Session State Initialization ---
