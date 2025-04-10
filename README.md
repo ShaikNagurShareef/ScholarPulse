@@ -1,12 +1,5 @@
 # ScholarPulse: Accelerate Research Understanding and Implementation through AI-Powered Research Paper Analysis and Code Generation Platform
 
-**ScholarPulse** is an AI-powered application designed to help scholars, including bachelor’s and master’s students, understand research papers, answer questions, and generate reliable code implementations. It leverages Groq API, LangChain, LangGraph, and external tools to accelerate research comprehension and experimentation.
-
-Below is a well-structured `README.md` file for your project, based on the provided code from `core/agents.py`, `core/llm_setup.py`, `core/parsing.py`, `core/retrieval.py`, `core/utils.py`, `ui/components.py`, and `ui/views.py`. This README assumes the project is named "ScholarPulse" (based on prompts in the code) and provides an overview, setup instructions, usage details, and additional information tailored to the functionality observed in the code.
-
-```markdown
-# ScholarPulse
-
 **ScholarPulse** is an AI-powered research assistant designed to help users understand academic papers by providing question-answering, summarization, and code generation capabilities. Built with LangChain, Streamlit, and Groq's language models, it processes PDFs, URLs (arXiv, DOIs, direct links), and extracts insights tailored to the user's background. The project leverages retrieval-augmented generation (RAG) and vector storage for context-aware responses.
 
 ## Features
