@@ -1,0 +1,31 @@
+# Environment variables
+.env
+*.env.*
+!.env.example
+
+# Temporary data/uploads
+temp_data/
+
+# Python cache & artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+build/
+dist/
+*.egg-info/
+*.spec
+
+# Virtual environment
+venv/
+sp_venv/
+env/
+.venv/
+
+# IDE files
+.idea/
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,22 @@
+# Core Frameworks
+streamlit
+langchain
+langchain-groq
+
+# LLM & Langchain Helpers
+python-dotenv       # For loading .env files
+langchainhub        # For pulling prompts/agents if needed
+
+# Data Handling & Parsing
+pypdf               # PDF parsing (or choose pymupdf, add to packages.txt if needed)
+requests            # For fetching URLs/DOIs
+beautifulsoup4      # For parsing HTML from URLs
+
+# Vector Store & Embeddings (Choose one VDB or adapt)
+chromadb            # Example local vector database
+# faiss-cpu         # Alternative vector database (or faiss-gpu if you have CUDA)
+sentence-transformers # Often used for generating embeddings locally
+
+# Optional: Add others as needed
+# pandas
+# numpy
