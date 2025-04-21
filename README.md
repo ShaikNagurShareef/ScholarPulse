@@ -1,4 +1,4 @@
-# ScholarPulse: Accelerate Research Understanding and Implementation through AI-Powered Research Paper Analysis and Code Generation Platform
+# ScholarPulse: AI Research Assistant
 
 **ScholarPulse** is an AI-powered research assistant designed to help users understand academic papers by providing question-answering, summarization, and code generation capabilities. Built with LangChain, Streamlit, and Groq's language models, it processes PDFs, URLs (arXiv, DOIs, direct links), and extracts insights tailored to the user's background. The project leverages retrieval-augmented generation (RAG) and vector storage for context-aware responses.
 
